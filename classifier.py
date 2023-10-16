@@ -101,12 +101,14 @@ def main(
         
         calculate_accuracy(ngram_list)
         
-        generated = list(map(generate_text, ngram_list))
         with open("generated.txt", "w") as f:
-            for g, a in zip(generated, author_list):
-                f.write(f"{a}\n")
-                f.write(f"{g}\n")
-            
+            for author in author_list:
+                author_var = author.replace("_utf8", "").replace(".txt", "")
+                f.write(f"{author_var}:\n")
+                for _ in range(5):
+                    text = generate_text(globals()[author_var])
+                    f.write(f"{text}\n")
+                f.write("\n")
         
     else:
         test_raw_sentences = load_test(test_file)
@@ -134,7 +136,7 @@ def main(
         
 
 def generate_text(ngram: NgramModel) -> str:
-    return " ".join(ngram.lm.generate(20, random_seed=RANDOM_SEED))
+    return " ".join(ngram.lm.generate(20))
             
 def load_test(test_file: str) -> List[str]:
     with open(test_file, "r") as f:
