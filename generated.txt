@@ -1,0 +1,28 @@
+austen:
+perplexity: 2019.0000000000093, text: been used to sir </s> course the <UNK> myself this anxiety but so <UNK> of darcy was to give as
+perplexity: 1436.1845828509104, text: that is a large and <UNK> in terms of mine would receive it was now closed when mr <UNK> </s>
+perplexity: 2019.0000000000093, text: town every thing like reserve but that part i think i may <UNK> attached to be silent while ago from
+perplexity: 2019.0000000000093, text: had hoped he may take place or any pleasant evening which gives </s> room </s> reproach you your niece who
+perplexity: 2019.0000000000093, text: not fail her <UNK> left meryton he was he made happy to her ideas </s> let me </s> here marianne
+
+dickens:
+perplexity: 1376.6280769818386, text: <UNK> <UNK> of spenlow what do you that i would <UNK> that was covent garden theatre copperfield ain t so
+perplexity: 1634.6571198328681, text: another said steerforth s cheek as we passed in a pretty strong will get it jip </s> <s> you last
+perplexity: 1993.0000000000066, text: traddles and was <UNK> </s> <UNK> </s> papers on this man says he wrote to do it gave her little
+perplexity: 1993.0000000000066, text: upon it <UNK> sir pursued stryver shaking her head with the cruncher <UNK> and may be empty house slowly settled
+perplexity: 1993.0000000000066, text: <s> a night seemed to be more about myself in that direction too as his image of other necessary to
+
+tolstoy:
+perplexity: 2890.000000000012, text: have for it not wishing to her miserable </s> s had let us from her melancholy she would not really
+perplexity: 2386.500125260827, text: of the forty two <UNK> on <UNK> down in the <UNK> his adjutant general engagement </s> filling the middle of
+perplexity: 2336.6766856630124, text: </s> the muskets of trouble in the law would so she paused again as follows he might so jealous i
+perplexity: 2890.000000000012, text: who had been his mustaches </s> <s> princess come out onto his work <UNK> do not know why aren t
+perplexity: 2890.000000000012, text: before him his mother i expect you will happen to annushka coming </s> day but rost ov </s> a again
+
+wilde:
+perplexity: 1467.929459918561, text: coat of the world worship the door </s> hughes <UNK> <UNK> and drew up and the <UNK> to be impossible
+perplexity: 1467.929459918561, text: just made up if he had hung low <UNK> terms about life </s> silly of a hollow <UNK> and yet
+perplexity: 1475.1598964404243, text: he glanced at last four <UNK> there </s> a knock came </s> <UNK> and was dressed </s> as an excellent
+perplexity: 1745.9999999999989, text: front of willie hughes theory would understand their <UNK> who had </s> <UNK> </s> <s> the men to the early
+perplexity: 1345.4231398654995, text: and why not thought of <UNK> <UNK> rising </s> in search of <UNK> and remember that people who had done
+

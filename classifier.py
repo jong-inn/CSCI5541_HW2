@@ -106,8 +106,8 @@ def main(
                 author_var = author.replace("_utf8", "").replace(".txt", "")
                 f.write(f"{author_var}:\n")
                 for _ in range(5):
-                    text = generate_text(globals()[author_var])
-                    f.write(f"{text}\n")
+                    perplexity, text = generate_text(globals()[author_var])
+                    f.write(f"perplexity: {perplexity}, text: {text}\n")
                 f.write("\n")
         
     else:
@@ -136,7 +136,9 @@ def main(
         
 
 def generate_text(ngram: NgramModel) -> str:
-    return " ".join(ngram.lm.generate(20))
+    generated = ngram.lm.generate(20)
+    perplexity = ngram.lm.perplexity(generated)
+    return perplexity, " ".join(ngram.lm.generate(20))
             
 def load_test(test_file: str) -> List[str]:
     with open(test_file, "r") as f:
